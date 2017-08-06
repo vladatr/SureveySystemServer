@@ -1,0 +1,66 @@
+body {
+	font-family: 'Shift', sans-serif;
+	color:#3F4A4D;
+}
+ canvas {
+	 width: 500px  !important;
+	 height: 300px  !important;
+ }
+ 
+#okvirSelect {
+	margin: 20px;
+}
+
+.okvirPitanje {
+	border: 1px solid #4B5E63;
+	border-radius: 5px;
+	padding: 15px;
+	width: 900px;
+	margin-bottom: 20px;
+}
+
+.tekst_pitanja {
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4B5E63;
+	font-size: 1.7em;	
+}
+
+.sample {
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #86AFD0;
+	font-size: 0.9em;		
+	margin: 5 0 5 15px;
+}
+
+.tab_results {
+	width: 700px;
+	padding: 0;
+	margin: 0;	
+}
+
+td {
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	background: #fff;
+	padding: 6px 6px 6px 12px;
+	color: #4f6b72;
+}
+
+
+td.alt {
+	background: #F5FAFA;
+	color: #797268;
+}
+
+th {
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4B5E63;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 6px 6px 6px 12px;
+	background: #86AFD0;
+}

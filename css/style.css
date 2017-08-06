@@ -1,0 +1,60 @@
+.survey_frame {
+	font-family: "Noto Serif",sans-serif;
+	font-size: 0.80em;
+	color: #337ab7;
+	padding: 20px;
+}
+
+input[type='text'] {
+	margin: 3px;
+	width: 280px;
+}
+
+input[type='radio'] {
+
+}
+
+.btn {
+	    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    display: inline-block;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px;
+    font-size: 0.90em;
+    border-radius: 4px;
+}
+
+.btn:hover {
+	background-color: #1bc0de;
+}
+.btn:hover {
+	background-color: #1bc5de;
+}
+
+.remove {
+	font-size: 0.80em;
+	color: #337ab7;
+    text-decoration: none;
+}
+
+.question_frame {
+	border: 1px solid silver;
+	border-radius: 4px;
+	margin: 10px;
+	width: 420px;
+	padding: 7px;
+}
+
+.remove_answer {
+	margin-left: 25px;
+}
+
+.ctip {
+	margin-left: 25px;
+}

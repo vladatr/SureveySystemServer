@@ -1,0 +1,113 @@
+body {
+	font-family: 'Shift', sans-serif;
+	color:#3F4A4D;
+}
+
+#text {
+	padding: 10px;
+}
+
+#header {
+    height: 140px;
+	width: 100%;
+    background: #86AFD0;
+	   background: -webkit-radial-gradient(#86AFD0, #167FDA); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#86AFD0, #167FDA); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#86AFD0, #178FDA); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#86AFD0, #167FDA); /* Standard syntax (must be last) */
+	color:#3F4A4D;
+    background-repeat: no-repeat;
+    font-family: 'Shift', sans-serif;
+}
+#header h2 {    
+    font-size: 3em;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    display: inline;
+}
+#header h4 {    
+    font-size: 1.2em;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    display: inline;
+}
+#header p {
+    font-size: 1.3em;
+    font-weight: bold;
+    position: relative;
+    top: 70px;
+    left: -400px;
+    display: inline
+}  
+
+#log {
+    font-size: 1.0em;
+    position: absolute;
+    top: 30px;
+    left: 610px;
+    display: inline;
+}	
+
+#menu li{
+    font-weight: bold;
+    display: inline;
+    text-transform: uppercase;
+    margin-right: 14px;
+}
+
+#menu {
+  overflow: hidden;
+  background-color: #333;
+    position: relative;
+    display: inline-block;
+	margin:0px;
+  width: 97%;
+
+}
+
+#menu a:hover{
+	color: red;
+}
+
+#menu a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+#about p{
+	width: 600px;
+		line-height: 130%;
+}
+
+#about div{
+	float: left;
+	margin:10px;
+	border: 1px solid silver;
+	border-radius: 4px;
+}
+
+#about img {
+	width: 300px;
+}
+
+
+.end_float {
+	clear: both;
+}
+
+.red {
+	color: red;
+	text-weight: bold;
+	text-shadow: 1px 1px yellow;
+	font-size: 1.4em;
+	
+}
