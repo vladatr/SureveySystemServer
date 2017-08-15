@@ -18,7 +18,8 @@
 <div>
   <ul id="menu">
         <li><a href="index.php">home</a></li>
-        <li><a href="new_survey.php">new survey</a></li>
+        <li><a href="new_survey.php">create survey</a></li>
         <li><a href="results.php">results</a></li>
+        <li><a href="survey.php">open survey</a></li>
     </ul>
 </div>
